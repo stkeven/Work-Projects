@@ -1,5 +1,5 @@
 function createNewGoogleDocs() {
-  const googleDocTemplate = DriveApp.getFileById('1QKDa0gWx1s2E8MnmsygV9bJTFjlZg7ouMIxbwKlk0dc');
+  const googleDocTemplate = DriveApp.getFileById('<insert template doc id from the url');
   
   const destinationFolder = DriveApp.getFolderById('<insert folder id from url>')
   const sheet = SpreadsheetApp
