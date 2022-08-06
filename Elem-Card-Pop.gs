@@ -27,7 +27,7 @@ function createNewGoogleDocs() {
     body.replaceText('{{First.Last}}', row[5]);
     body.replaceText('{{Password}}', row[6]);
   
-    
+    //Saves the documents
     doc.saveAndClose();
     
     
